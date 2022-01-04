@@ -1,0 +1,26 @@
+{
+  "name": "electron",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "陈碧滔 <cbtpro@163.com>",
+  "homepage": "https://github.com/cbtpro/browser-extensions-scaffold#readme",
+  "license": "ISC",
+  "main": "lib/electron.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbtpro/browser-extensions-scaffold.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/cbtpro/browser-extensions-scaffold/issues"
+  }
+}
