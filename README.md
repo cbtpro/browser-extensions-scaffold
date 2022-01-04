@@ -1,7 +1,7 @@
 # 新建一个package
 lerna create 包名
 
-# 将本地宝链接在一起,以节省空间,并安装剩余的依赖
+# 将本地依赖链接在一起,以节省空间,并安装剩余的依赖
 lerna bootstrap
 
 # 修改版本
@@ -56,6 +56,8 @@ lerna add module-1
 
 # Install babel-core in all modules
 lerna add babel-core
+# 添加electron到packages/desktop
+lerna add electron --scope=desktop
 ```
 
 # 从所有包中删除node_modules

@@ -1,6 +1,9 @@
 {
   "packages": [
-    "packages/*"
+    "packages/chrome",
+    "packages/desktop",
+    "packages/edge",
+    "packages/firefox"
   ],
   "version": "0.0.1"
 }
