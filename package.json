@@ -4,14 +4,22 @@
   "scripts": {
     "c": "git-cz"
   },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
-  "devDependencies": {
-    "commitizen": "^4.2.4",
-    "cz-lerna-changelog": "^2.0.3",
-    "lerna": "^4.0.0"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
